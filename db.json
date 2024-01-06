@@ -1,0 +1,36 @@
+{
+  "dev_1": {
+    "work": "Photosnap",
+    "isnew": true,
+    "isfeatured": true,
+    "dev_work": "Senior Frontend Developer",
+    "online" :{
+        "last":"1 day ago",
+        "how": "FULL TIME",
+        "from":"USA only"
+    },
+    "technologies":{
+        "1":"JavaScript",
+        "2": "CSS",
+        "3":"HTML",
+        "4":"React"
+    }
+  },
+  "dev_2": {
+    "work": "Manage",
+    "isnew": true,
+    "isfeatured": true,
+    "dev_work": "Senior Frontend Developer",
+    "online" :{
+        "last":"1 day ago",
+        "how": "FULL TIME",
+        "from":"USA only"
+    },
+    "technologies":{
+        "1":"JavaScript",
+        "2": "CSS",
+        "3":"HTML",
+        "4":"React"
+    }
+  }
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job listing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="h-full font-['League_spartan']">
+    <header
+      class="mx-auto w-full h-1/5 bg-[url('./images/bg-png.png')] bg-no-repeat bg-cover relative"
+    >
+      <div
+        class="w-4/5 min-h-[72px] px-6 py-5 md:px-10 flex items-center justify-between bg-white mx-auto absolute bottom-0 rounded-md translate-x-2/4 right-1/2 translate-y-1/2 shadow-[0px_15px_20px_-5px_rgba(13,113,130,0.15)]"
+      >
+        <div class="md:gap-8 gap-4 flex items-center h-full flex-wrap">
+          <div
+            class="bg-[rgba(92,165,165,0.1)] rounded h-8 pl-2 flex max-w-[110px] gap-[9px] justify-between items-center"
+          >
+            <span class="text-[#5CA5A5] font-bold" id="search_tip"
+              >Javascript</span
+            >
+            <button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+              >
+                <path
+                  d="M0 0H28C30.2091 0 32 1.79086 32 4V28C32 30.2091 30.2091 32 28 32H0V0Z"
+                  fill="#5CA5A5"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M22.435 11.1213L20.3137 9L15.7175 13.5962L11.1213 9L9 11.1213L13.5962 15.7175L9 20.3137L11.1213 22.435L15.7175 17.8388L20.3137 22.435L22.435 20.3137L17.8388 15.7175L22.435 11.1213Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div
+            class="bg-[rgba(92,165,165,0.1)] h-8 pl-2 rounded flex max-w-[110px] gap-[9px] justify-between items-center"
+          >
+            <span class="text-[#5CA5A5] font-bold" id="search_tip"
+              >Frontend</span
+            >
+            <button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+              >
+                <path
+                  d="M0 0H28C30.2091 0 32 1.79086 32 4V28C32 30.2091 30.2091 32 28 32H0V0Z"
+                  fill="#5CA5A5"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M22.435 11.1213L20.3137 9L15.7175 13.5962L11.1213 9L9 11.1213L13.5962 15.7175L9 20.3137L11.1213 22.435L15.7175 17.8388L20.3137 22.435L22.435 20.3137L17.8388 15.7175L22.435 11.1213Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div>
+          <a href="" class="text-[#5CA5A5] text-base capitalize font-bold"
+            >clear</a
+          >
+        </div>
+      </div>
+    </header>
+    <main class="max-h-full h-4/5 bg-[rgba(239,250,250,1)] pt-[76px]">
+      <section>
+        <div
+          class="flex flex-col px-6 md:flex-row md:items-center md:justify-between w-4/5 mx-auto md:px-0 sm:px-10 sm:py-8 bg-white rounded-md md:px-10"
+        >
+          <div
+            class="flex sm:items-center flex-col md:flex-row gap-4 mb-4 sm:mb-0 border-b border-[#B7C4C4] md:border-none pb-[15px] relative pt-8 md:pt-0 sm:flex-row sm:border-none"
+          >
+            <div
+              class="max-w-[48px] absolute -translate-y-2/4 top-0 left-0 sm:static sm:-translate-y-0 sm: sm:max-w-20"
+            >
+              <img src="./images/img-1.svg" class="w-full" alt="img" />
+            </div>
+            <div>
+              <div class="flex gap-8 sm:gap-[15px] items-center mb-1">
+                <h3 id="dev" class="text-[#5CA5A5] font-bold text-[18px]">
+                  Photosnap
+                </h3>
+                <ul
+                  id="items_listx"
+                  class="flex gap-2 font-bold text-[14px] text-white items-center"
+                >
+                  <li
+                    id="new"
+                    class="px-2 pt-1 max-h-6 bg-[#5ca5a5] rounded-xl"
+                  >
+                    NEW!
+                  </li>
+                  <li
+                    id="featured"
+                    class="px-2 pt-1 max-h-6 bg-[#2B3939] rounded-xl"
+                  >
+                    FEATURED
+                  </li>
+                </ul>
+              </div>
+
+              <h2 class="text-[#2B3939] text-[22px] font-bold" id="dev_name">
+                Senior Frontend Developer
+              </h2>
+              <ul
+                class="text-[#7C8F8F] text-[18px] font-medium flex gap-4"
+                id="working_time"
+              >
+                <li>1d ago</li>
+                <li>Full Time</li>
+                <li>USA only</li>
+              </ul>
+            </div>
+          </div>
+          <div class="pb-6 sm:pb-0">
+            <ul
+              class="flex gap-4 font-bold text-[#5CA5A5] text-base"
+              id="technologies"
+            >
+              <button
+                id=""
+                class="rounded px-[9px] py-[5px] bg-[rgba(92,165,165,0.1)]"
+              >
+                Frontend
+              </button>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
